@@ -2,7 +2,7 @@
 
 using namespace std;
 typedef long long ll;
-const int maxn = 1e5 + 5;
+const int maxn = 1e5+5;
 int arr[maxn];
 int Rank[maxn];
 

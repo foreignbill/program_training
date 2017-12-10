@@ -4,7 +4,6 @@ using namespace std;
 typedef long long ll;
 
 int main(){
-	//freopen("in.txt","r",stdin);
 	int n;
 	cin>>n;
 	if(n!=2&&n%2==0) puts("YES");

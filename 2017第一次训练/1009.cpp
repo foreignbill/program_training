@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int maxn = 1e3 + 5;
+const int maxn = 1e3+5;
 int a[maxn], b[maxn];
 int main() {
 	int n, l, r, k, t;

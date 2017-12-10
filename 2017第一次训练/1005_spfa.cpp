@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 const int N = 2510;
 const int inf = (int) 1e9;
 

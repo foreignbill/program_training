@@ -2,7 +2,8 @@
 #define N 1000010
 using namespace std;
 typedef long long ll;
-int a[N],n;ll ans=0;
+int a[N],n;
+ll ans=0;
 /*
 首先我们已知对于自动机状态pre
 来说，我们已知它最后插入的节点为t，由已知性质可得，该节点可表示[min(t),max(t)]区间长度的后缀，

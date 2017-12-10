@@ -1,6 +1,6 @@
 #include <cstdio>
 #define maxn 1000005
-int f[maxn];
+int f[maxn]; 
 int main() {
 	int i, n;
 	f[1] = f[2] = 1;
