@@ -38,3 +38,6 @@ int main () {
     cout << res << endl;
     return 0;
 }
+/*
+dp[i] = max{dp[j] + info[i].v} | j 之后 可以 做i
+*/

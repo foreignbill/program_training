@@ -76,3 +76,10 @@ int main () {
 	}
 	return 0;
 }
+/*
+	dp[i][0..1] 0 from i left , 1 from i right
+
+	dp[i][0] = max(dp[i][0],dp[j][0] + cost , dp[j][1] + cost);
+
+	dp[i][1] = ...
+*/

@@ -52,3 +52,6 @@ int main () {
 	dfs(id);
 	return 0;
 }
+/*
+	LIS 记录路径
+*/

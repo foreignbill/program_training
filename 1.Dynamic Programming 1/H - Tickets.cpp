@@ -35,3 +35,9 @@ int main () {
     }
     return 0;
 }
+/*
+    dp[i][0..1] 0只选自己 1选两个一起
+
+    简化版
+    dp[i] = min(dp[i-1]+a[i],dp[i-2]+b[i])
+*/
