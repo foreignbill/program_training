@@ -1,0 +1,1 @@
+main(int a){while(~scanf("%d",&a)) puts("Yes");}
